@@ -1,0 +1,35 @@
+"C:\Users\006li\OneDrive\Documents\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/006li/OneDrive/Documents/CLion 2023.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S \\wsl.localhost\Ubuntu\home\sc43\a5_lxx789 -B \\wsl.localhost\Ubuntu\home\sc43\a5_lxx789\cmake-build-debug
+-- The C compiler identification is unknown
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Users/006li/OneDrive/Documents/CLion 2023.3/bin/mingw/bin/gcc.exe
+-- Check for working C compiler: C:/Users/006li/OneDrive/Documents/CLion 2023.3/bin/mingw/bin/gcc.exe - broken
+CMake Error at C:/Users/006li/OneDrive/Documents/CLion 2023.3/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Users/006li/OneDrive/Documents/CLion 2023.3/bin/mingw/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '//wsl.localhost/Ubuntu/home/sc43/a5_lxx789/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-erwrra'
+    
+    Run Build Command(s): "C:/Users/006li/OneDrive/Documents/CLion 2023.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3e47b
+    [1/2] C:\Users\006li\OneDrive\DOCUME~1\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_3e47b.dir\testCCompiler.c.obj -c \\wsl.localhost\Ubuntu\home\sc43\a5_lxx789\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-erwrra\testCCompiler.c
+    FAILED: CMakeFiles/cmTC_3e47b.dir/testCCompiler.c.obj 
+    C:\Users\006li\OneDrive\DOCUME~1\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_3e47b.dir\testCCompiler.c.obj -c \\wsl.localhost\Ubuntu\home\sc43\a5_lxx789\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-erwrra\testCCompiler.c
+    Assembler messages:
+    Fatal error: can't create CMakeFiles\cmTC_3e47b.dir\testCCompiler.c.obj: Invalid argument
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
